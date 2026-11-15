@@ -2,7 +2,7 @@
 
 **An AI reviewer for DAO contributor rewards. It reads each month's work claims against your written reward policy, decides what each one earns, and says which rule it used. A person signs off before anything is paid.**
 
-**Demo video (77 s):** [demo.mp4](demo.mp4) · **Sample report from the live run:** [sample-output/report.html](sample-output/report.html)
+**Demo video (77 s):** [youtu.be/2gp9rxOpnLw](https://youtu.be/2gp9rxOpnLw) (also [demo.mp4](demo.mp4)) · **Sample report from the live run:** [sample-output/report.html](sample-output/report.html)
 
 Built on [SERV Reasoning](https://docs.openserv.ai/serv-reasoning/introduction) for the SERV Hackathon, Edition 02 (Open Track).
 
