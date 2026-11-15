@@ -1,0 +1,21 @@
+{
+  "program": "Ambassador Program",
+  "month": "October 2026",
+  "cutoff": "2026-11-03",
+  "point_value_usd": 5,
+  "budget_usd": 400,
+  "workgroup_leads": { "writing": "amaka", "dev": "tobi", "community": "zainab", "design": "kofi" },
+  "claims": [
+    { "id": "c01", "contributor": "chidi", "submitted": "2026-11-01", "title": "Explainer: how our staking works", "description": "1,400-word explainer published on the official blog.", "evidence": ["https://blog.example-dao.org/staking-explained"] },
+    { "id": "c02", "contributor": "ngozi", "submitted": "2026-11-02", "title": "Weekly onboarding calls", "description": "Ran the newcomer onboarding call every Thursday in October. Recordings show 22, 18, 25 and 19 attendees.", "evidence": ["https://youtube.example/playlist/onboarding-oct"] },
+    { "id": "c03", "contributor": "tobi", "submitted": "2026-11-02", "title": "Discord bot for quest tracking", "description": "Built and shipped the quest-tracking bot now used in the main server.", "evidence": ["https://github.example/dao/quest-bot/pull/41"] },
+    { "id": "c04", "contributor": "chidi", "submitted": "2026-11-02", "title": "Explainer: how our staking works", "description": "Same staking explainer, also posted as an X thread.", "evidence": ["https://x.example/chidi/status/1"] },
+    { "id": "c05", "contributor": "femi", "submitted": "2026-11-05", "title": "Translated the roadmap into Yoruba", "description": "Full translation of the Q4 roadmap.", "evidence": ["https://blog.example-dao.org/roadmap-yo"] },
+    { "id": "c06", "contributor": "aisha", "submitted": "2026-11-02", "title": "AMA with the research team", "description": "Hosted the October AMA. Lots of people came.", "evidence": ["https://x.example/spaces/ama-oct"] },
+    { "id": "c07", "contributor": "bayo", "submitted": "2026-11-01", "title": "Launch video", "description": "Made the 60-second launch video. It was also paid for by the marketing grant.", "evidence": ["https://youtube.example/launch"] },
+    { "id": "c08", "contributor": "emeka", "submitted": "2026-11-02", "title": "Helped out", "description": "Helped people in the server and did some research for the team.", "evidence": [] },
+    { "id": "c09", "contributor": "ngozi", "submitted": "2026-11-02", "title": "Holiday campaign graphics", "description": "Designed a set of 6 graphics used on the official X account.", "evidence": ["https://x.example/dao/status/2", "https://figma.example/file/holiday"] },
+    { "id": "c10", "contributor": "ngozi", "submitted": "2026-11-03", "title": "Guide: setting up a wallet", "description": "1,000-word guide on the official blog.", "evidence": ["https://blog.example-dao.org/wallet-guide"] },
+    { "id": "c11", "contributor": "kola", "submitted": "2026-11-08", "title": "Dune dashboard for treasury", "description": "Built the treasury dashboard the team now links in reports.", "evidence": ["https://dune.example/dao/treasury"] }
+  ]
+}

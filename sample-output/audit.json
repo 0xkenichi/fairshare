@@ -1,0 +1,649 @@
+{
+  "program": "Ambassador Program",
+  "month": "October 2026",
+  "model": "gpt-5.4-mini-serv-multipath",
+  "generated": "2026-11-15T15:35:28.157Z",
+  "rows": [
+    {
+      "claim": {
+        "id": "c01",
+        "contributor": "chidi",
+        "submitted": "2026-11-01",
+        "title": "Explainer: how our staking works",
+        "description": "1,400-word explainer published on the official blog.",
+        "evidence": [
+          "https://blog.example-dao.org/staking-explained"
+        ]
+      },
+      "facts": {
+        "daysLate": 0,
+        "duplicateOf": null,
+        "pointsSoFar": 0
+      },
+      "review": {
+        "decision": "approve",
+        "category": "writing",
+        "tier": "A",
+        "evidence_supports": "full",
+        "reasons": [
+          "Public link is provided and points to an official blog post.",
+          "Description states an original 1,400-word explainer published on the official blog, which matches the higher writing tier.",
+          "Claim is not late, not a duplicate, and there is no indicated overlap with another program."
+        ],
+        "policy_rules": [
+          "1. Categories and base points",
+          "2. Evidence rules",
+          "3. Exceptions and edge cases"
+        ],
+        "missing_info": null
+      },
+      "decision": "approve",
+      "points": 12,
+      "notes": [],
+      "meta": {
+        "id": "chatcmpl-EkWWufyti4PuKepwYNUTnBgWCHc09",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "ms": 20069,
+        "usage": {
+          "prompt_tokens": 1607,
+          "completion_tokens": 114,
+          "total_tokens": 1721,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "shadow": true
+      },
+      "usd": 60
+    },
+    {
+      "claim": {
+        "id": "c02",
+        "contributor": "ngozi",
+        "submitted": "2026-11-02",
+        "title": "Weekly onboarding calls",
+        "description": "Ran the newcomer onboarding call every Thursday in October. Recordings show 22, 18, 25 and 19 attendees.",
+        "evidence": [
+          "https://youtube.example/playlist/onboarding-oct"
+        ]
+      },
+      "facts": {
+        "daysLate": 0,
+        "duplicateOf": null,
+        "pointsSoFar": 0
+      },
+      "review": {
+        "decision": "approve",
+        "category": "community",
+        "tier": "A",
+        "evidence_supports": "full",
+        "reasons": [
+          "Public recording link is provided.",
+          "Evidence describes a recurring community onboarding program run throughout the month.",
+          "Attendance shown in the evidence is at least 15 attendees for the sessions mentioned."
+        ],
+        "policy_rules": [
+          "1. Categories and base points",
+          "2. Evidence rules",
+          "3. Exceptions and edge cases"
+        ],
+        "missing_info": null
+      },
+      "decision": "approve",
+      "points": 10,
+      "notes": [],
+      "meta": {
+        "id": "chatcmpl-EkWX567XKPS1dZCusPkJ7bxzRqX0d",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "ms": 10093,
+        "usage": {
+          "prompt_tokens": 1615,
+          "completion_tokens": 93,
+          "total_tokens": 1708,
+          "prompt_tokens_details": {
+            "cached_tokens": 1280,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "shadow": true
+      },
+      "usd": 50
+    },
+    {
+      "claim": {
+        "id": "c03",
+        "contributor": "tobi",
+        "submitted": "2026-11-02",
+        "title": "Discord bot for quest tracking",
+        "description": "Built and shipped the quest-tracking bot now used in the main server.",
+        "evidence": [
+          "https://github.example/dao/quest-bot/pull/41"
+        ]
+      },
+      "facts": {
+        "daysLate": 0,
+        "duplicateOf": null,
+        "pointsSoFar": 0
+      },
+      "review": {
+        "decision": "escalate",
+        "category": "dev",
+        "tier": "none",
+        "evidence_supports": "full",
+        "reasons": [
+          "The contributor is the dev workgroup lead, so this creates a conflict of interest that must be escalated to the treasurer.",
+          "A public PR link is provided and it appears to support the claimed dev work, but conflicts override normal approval. "
+        ],
+        "policy_rules": [
+          "3. Exceptions and edge cases",
+          "2. Evidence rules"
+        ],
+        "missing_info": "Treasurer review is needed because the claimant is also the dev workgroup lead who would normally verify this claim."
+      },
+      "decision": "escalate",
+      "points": 0,
+      "notes": [],
+      "meta": {
+        "id": "chatcmpl-EkWXFml24Ws9JpqVg26OEgjmD3klt",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "ms": 5814,
+        "usage": {
+          "prompt_tokens": 1610,
+          "completion_tokens": 124,
+          "total_tokens": 1734,
+          "prompt_tokens_details": {
+            "cached_tokens": 1280,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "shadow": true
+      },
+      "usd": 0
+    },
+    {
+      "claim": {
+        "id": "c04",
+        "contributor": "chidi",
+        "submitted": "2026-11-02",
+        "title": "Explainer: how our staking works",
+        "description": "Same staking explainer, also posted as an X thread.",
+        "evidence": [
+          "https://x.example/chidi/status/1"
+        ]
+      },
+      "facts": {
+        "daysLate": 0,
+        "duplicateOf": "c01",
+        "pointsSoFar": 12
+      },
+      "review": {
+        "decision": "reject",
+        "category": "writing",
+        "tier": "none",
+        "evidence_supports": "none",
+        "reasons": [
+          "Marked as a duplicate of a claim already approved this month.",
+          "Only evidence provided is a public post link, but duplicate status overrides scoring."
+        ],
+        "policy_rules": [
+          "3. Exceptions and edge cases",
+          "2. Evidence rules"
+        ],
+        "missing_info": null
+      },
+      "decision": "reject",
+      "points": 0,
+      "notes": [],
+      "meta": {
+        "id": "chatcmpl-EkWXLUadp6RR62Ets7OvVAONbhHhH",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "ms": 5369,
+        "usage": {
+          "prompt_tokens": 1605,
+          "completion_tokens": 79,
+          "total_tokens": 1684,
+          "prompt_tokens_details": {
+            "cached_tokens": 1280,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "shadow": true
+      },
+      "usd": 0
+    },
+    {
+      "claim": {
+        "id": "c05",
+        "contributor": "femi",
+        "submitted": "2026-11-05",
+        "title": "Translated the roadmap into Yoruba",
+        "description": "Full translation of the Q4 roadmap.",
+        "evidence": [
+          "https://blog.example-dao.org/roadmap-yo"
+        ]
+      },
+      "facts": {
+        "daysLate": 2,
+        "duplicateOf": null,
+        "pointsSoFar": 0
+      },
+      "review": {
+        "decision": "approve",
+        "category": "writing",
+        "tier": "B",
+        "evidence_supports": "full",
+        "reasons": [
+          "Public link is provided and opens evidence for the translated piece.",
+          "The claim is a translation, which fits writing Tier B.",
+          "The claim is 2 days late, which is within the allowed lateness window, so it is accepted with the late penalty applied by the system."
+        ],
+        "policy_rules": [
+          "1. Categories and base points",
+          "2. Evidence rules",
+          "3. Exceptions and edge cases"
+        ],
+        "missing_info": null
+      },
+      "decision": "approve",
+      "points": 4,
+      "notes": [
+        "system: 2 day(s) late, −25% (6 → 4)"
+      ],
+      "meta": {
+        "id": "chatcmpl-EkWXQPABTqJ4SAIEl7E0P8vyfWuCe",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "ms": 5833,
+        "usage": {
+          "prompt_tokens": 1601,
+          "completion_tokens": 113,
+          "total_tokens": 1714,
+          "prompt_tokens_details": {
+            "cached_tokens": 1280,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "shadow": true
+      },
+      "usd": 20
+    },
+    {
+      "claim": {
+        "id": "c06",
+        "contributor": "aisha",
+        "submitted": "2026-11-02",
+        "title": "AMA with the research team",
+        "description": "Hosted the October AMA. Lots of people came.",
+        "evidence": [
+          "https://x.example/spaces/ama-oct"
+        ]
+      },
+      "facts": {
+        "daysLate": 0,
+        "duplicateOf": null,
+        "pointsSoFar": 0
+      },
+      "review": {
+        "decision": "partial",
+        "category": "community",
+        "tier": "B",
+        "evidence_supports": "partial",
+        "reasons": [
+          "The public link shows a community session, but the evidence provided does not show attendance, so it cannot be scored as Tier A from the evidence alone.",
+          "The claim can be placed in the community category and fits a lower-tier hosted session based on the available evidence.",
+          "No disqualifying duplicate, late, or overlap issue is indicated by the supplied facts."
+        ],
+        "policy_rules": [
+          "1. Categories and base points",
+          "2. Evidence rules",
+          "3. Exceptions and edge cases"
+        ],
+        "missing_info": null
+      },
+      "decision": "partial",
+      "points": 4,
+      "notes": [],
+      "meta": {
+        "id": "chatcmpl-EkWXWjtKG0BX1mgWdWMk15FwQEo5E",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "ms": 9282,
+        "usage": {
+          "prompt_tokens": 1601,
+          "completion_tokens": 129,
+          "total_tokens": 1730,
+          "prompt_tokens_details": {
+            "cached_tokens": 1280,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "shadow": true
+      },
+      "usd": 20
+    },
+    {
+      "claim": {
+        "id": "c07",
+        "contributor": "bayo",
+        "submitted": "2026-11-01",
+        "title": "Launch video",
+        "description": "Made the 60-second launch video. It was also paid for by the marketing grant.",
+        "evidence": [
+          "https://youtube.example/launch"
+        ]
+      },
+      "facts": {
+        "daysLate": 0,
+        "duplicateOf": null,
+        "pointsSoFar": 0
+      },
+      "review": {
+        "decision": "reject",
+        "category": "design",
+        "tier": "none",
+        "evidence_supports": "none",
+        "reasons": [
+          "The claim states the same work was also paid for by another program/grant, which makes it ineligible.",
+          "The evidence link alone does not override the self-reported double-payment issue."
+        ],
+        "policy_rules": [
+          "3. Exceptions and edge cases",
+          "2. Evidence rules"
+        ],
+        "missing_info": null
+      },
+      "decision": "reject",
+      "points": 0,
+      "notes": [],
+      "meta": {
+        "id": "chatcmpl-EkWXfxeZDi9rapw2l8pgilYDcla6e",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "ms": 8098,
+        "usage": {
+          "prompt_tokens": 1602,
+          "completion_tokens": 89,
+          "total_tokens": 1691,
+          "prompt_tokens_details": {
+            "cached_tokens": 1280,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "shadow": true
+      },
+      "usd": 0
+    },
+    {
+      "claim": {
+        "id": "c08",
+        "contributor": "emeka",
+        "submitted": "2026-11-02",
+        "title": "Helped out",
+        "description": "Helped people in the server and did some research for the team.",
+        "evidence": []
+      },
+      "facts": {
+        "daysLate": 0,
+        "duplicateOf": null,
+        "pointsSoFar": 0
+      },
+      "review": {
+        "decision": "reject",
+        "category": "unclear",
+        "tier": "none",
+        "evidence_supports": "none",
+        "reasons": [
+          "No public link or other reviewable evidence was provided.",
+          "The description is too vague to place the work in a specific category and tier from evidence alone."
+        ],
+        "policy_rules": [
+          "2. Evidence rules",
+          "3. Exceptions and edge cases"
+        ],
+        "missing_info": "A public link to the work is needed, plus enough evidence to determine the category and tier (for example, a post, recording, PR, event page, or comparable proof)."
+      },
+      "decision": "reject",
+      "points": 0,
+      "notes": [],
+      "meta": {
+        "id": "chatcmpl-EkWXncfX43IUeQmj7IL84o5aAP9cW",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "ms": 4384,
+        "usage": {
+          "prompt_tokens": 1588,
+          "completion_tokens": 118,
+          "total_tokens": 1706,
+          "prompt_tokens_details": {
+            "cached_tokens": 1280,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "shadow": true
+      },
+      "usd": 0
+    },
+    {
+      "claim": {
+        "id": "c09",
+        "contributor": "ngozi",
+        "submitted": "2026-11-02",
+        "title": "Holiday campaign graphics",
+        "description": "Designed a set of 6 graphics used on the official X account.",
+        "evidence": [
+          "https://x.example/dao/status/2",
+          "https://figma.example/file/holiday"
+        ]
+      },
+      "facts": {
+        "daysLate": 0,
+        "duplicateOf": null,
+        "pointsSoFar": 10
+      },
+      "review": {
+        "decision": "approve",
+        "category": "design",
+        "tier": "A",
+        "evidence_supports": "full",
+        "reasons": [
+          "The evidence shows an original design set used on an official channel.",
+          "The claim is on time and not marked as a duplicate.",
+          "The monthly cap is not exceeded by this claim based on the provided system facts."
+        ],
+        "policy_rules": [
+          "1. Categories and base points",
+          "2. Evidence rules",
+          "3. Exceptions and edge cases"
+        ],
+        "missing_info": null
+      },
+      "decision": "approve",
+      "points": 10,
+      "notes": [],
+      "meta": {
+        "id": "chatcmpl-EkWXr8qnpUH3xB0auEvJf8h50flNa",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "ms": 13578,
+        "usage": {
+          "prompt_tokens": 1613,
+          "completion_tokens": 105,
+          "total_tokens": 1718,
+          "prompt_tokens_details": {
+            "cached_tokens": 1280,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "shadow": true
+      },
+      "usd": 50
+    },
+    {
+      "claim": {
+        "id": "c10",
+        "contributor": "ngozi",
+        "submitted": "2026-11-03",
+        "title": "Guide: setting up a wallet",
+        "description": "1,000-word guide on the official blog.",
+        "evidence": [
+          "https://blog.example-dao.org/wallet-guide"
+        ]
+      },
+      "facts": {
+        "daysLate": 0,
+        "duplicateOf": null,
+        "pointsSoFar": 20
+      },
+      "review": {
+        "decision": "partial",
+        "category": "writing",
+        "tier": "A",
+        "evidence_supports": "full",
+        "reasons": [
+          "Public blog link is provided and supports an original long-form writing piece published on an official channel.",
+          "The contributor has 20 points already this month, so only part of the claim can be awarded before reaching the 30-point cap."
+        ],
+        "policy_rules": [
+          "1. Categories and base points",
+          "2. Evidence rules",
+          "3. Exceptions and edge cases"
+        ],
+        "missing_info": null
+      },
+      "decision": "partial",
+      "points": 10,
+      "notes": [
+        "system: monthly cap of 30, 12 → 10"
+      ],
+      "meta": {
+        "id": "chatcmpl-EkWY5A3XPRn9VhkuQIu70xxOJ0S2a",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "ms": 9751,
+        "usage": {
+          "prompt_tokens": 1602,
+          "completion_tokens": 88,
+          "total_tokens": 1690,
+          "prompt_tokens_details": {
+            "cached_tokens": 1280,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "shadow": true
+      },
+      "usd": 50
+    },
+    {
+      "claim": {
+        "id": "c11",
+        "contributor": "kola",
+        "submitted": "2026-11-08",
+        "title": "Dune dashboard for treasury",
+        "description": "Built the treasury dashboard the team now links in reports.",
+        "evidence": [
+          "https://dune.example/dao/treasury"
+        ]
+      },
+      "facts": {
+        "daysLate": 5,
+        "duplicateOf": null,
+        "pointsSoFar": 0
+      },
+      "review": {
+        "decision": "reject",
+        "category": "dev",
+        "tier": "none",
+        "evidence_supports": "none",
+        "reasons": [
+          "Claim was submitted 5 days after the monthly cut-off, which exceeds the allowed late window.",
+          "Late claims beyond 3 days must be rejected and rolled to the next month's review.",
+          "No further scoring is applied once rejected for lateness."
+        ],
+        "policy_rules": [
+          "3. Exceptions and edge cases"
+        ],
+        "missing_info": null
+      },
+      "decision": "reject",
+      "points": 0,
+      "notes": [],
+      "meta": {
+        "id": "chatcmpl-EkWYFZ8HrgPSdEUolvu22F6ybaoD1",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "ms": 5746,
+        "usage": {
+          "prompt_tokens": 1602,
+          "completion_tokens": 100,
+          "total_tokens": 1702,
+          "prompt_tokens_details": {
+            "cached_tokens": 1280,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "shadow": true
+      },
+      "usd": 0
+    }
+  ]
+}
